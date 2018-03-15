@@ -1,0 +1,480 @@
+@font-face {
+  font-family: "San Francisco Display Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.svg#San Francisco Display Semibold") format("svg")
+}
+
+html{
+	font-size:120%;
+}
+body{
+	overflow-x: hidden;
+}
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #449FD7;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+	position: fixed;
+	
+}
+main {
+	width: 100%;
+}
+.imagemSlide {
+	width: 100%;
+	height: 99vh;
+}
+.container {
+	align-self: center;
+	width: 95%;
+	height: 80%;
+}
+
+.logo {
+	width: 130px;
+	margin-left: 4%;
+}
+.mynavbar {
+	margin-right: 6%;
+}
+.mynav-links { 
+	color: #FFFFFF;	
+	font-family: "San Francisco Display Semibold";
+	font-size: 18px;	
+	text-align: center;
+	text-decoration: none;
+	padding-left:2.8em;
+	padding-right: 2.4em;
+	padding-top: .4em;
+	padding-bottom: .4em;
+	transition: .5s;
+ }
+.mynav-links:hover,
+.mynav-links:focus {
+ 	background-color: #35779F;
+ 	border-radius: 5px;
+ }
+.widthHeight{
+	width: 100%;
+	height: 190vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#inicio {
+	background-color: #E0F4FF;
+	overflow: hidden;
+	height: 100vh !important;
+
+}
+#comoFunciona {
+	background-color: #449FD7;
+}
+#facilidades {
+	height: 442px;
+	background-color: #35779F;
+}
+#contato{
+	height: 120vh;
+	background-color: #F3F2F7;
+}
+.slide {
+	width: 100%;
+	position: relative;
+	height: 100%;
+	margin-top: 70px;
+
+}
+.primeiraFoto  {
+	 cursor:context-menu;
+}						
+.tituloLegenda {
+	position: absolute;
+	margin-top: 6.8em;
+	color:#35779F;
+	font-family: "Open Sans";	
+	font-size: 48px;	
+	font-weight: bold;	
+	margin-left:.6%;
+
+
+}
+.paragrafoLegenda {
+	position: absolute;
+	margin-top: 12.5em;
+	margin-left:.6%; 
+	color: #35779F;	
+	font-family: "Zilla Slab";	
+	font-size: 32px;	
+	font-weight: 300;
+	height: 76px;	
+	width: 520px;
+}
+.titulo{
+	height: 99px;	
+	width: 100%;
+}
+
+.sisSofia {
+	color: #35779F;	
+	font-family: "Open Sans";	
+	font-size: 73px;	
+	font-weight: bold;	
+	line-height: 99px;
+	margin-left:1.5%;
+}
+.sis {
+	color: #35779F;	
+	font-family: 'Roboto', sans-serif;	
+	font-size: 68px;	
+	line-height: 99px;
+	font-weight: lighter;
+}
+
+.procedimentos-Descricao {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 8%;
+	margin-left:1.5%;
+
+
+}
+
+.procedimentos {
+	width: 33%;
+	height: 198px;	
+	color: #449FD7;	
+	font-family: "Open Sans";	
+	font-size: 24px;	
+	font-weight: bold;	
+	line-height: 33px;	
+	text-align: center;
+}
+.descricao {
+	width: 50%;
+	height: 308px;
+	color: #35779F;	
+	font-family: "Zilla Slab";	
+	font-size: 18px;	
+	font-weight: 300;	
+	line-height: 22px;
+	position:absolute;
+	right:0;
+	margin-right: 4%;
+}
+.slide2 {
+	align-self:center;
+	width: 850px;
+	height: 500px;
+
+}
+.imgSlide2 {
+	height: 26em;
+}
+.slick-prev:before, 
+.slick-next:before {
+	font-size: 50px;
+	color:#449FD7;;
+}
+#comoFunciona h2 {
+	color: #FFFFFF;	
+	font-family: "Open Sans";	
+	font-size: 70px;	
+	font-weight: bold;	
+	line-height: 99px;
+	margin-left: 2%;
+}
+#comoFunciona h3 {
+	color: #E0F4FF;	
+	font-family: "Open Sans";	
+	font-size: 36px;		
+	text-align: center;
+	margin-top: 2.5em;
+
+}
+.acessoCidadao {
+	margin-top:  4.5em;
+	display: flex;
+	justify-content: space-around;
+}
+.botaoCidadao {
+	height: 219px;	
+	border: 3px solid rgba(151,151,151,0.3);	
+	border-radius: 10px;	
+	background-color: #FFFFFF;
+	margin-left: 1.5em;
+	width: 20%;
+	position: relative;
+	transition: height 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	flex-direction: column;
+	
+}
+.botaoCidadao:hover,
+.botaoCidadao:focus {
+	background-color: #F3F2F7;
+	height: 275px;
+	box-shadow: 0 4px 14px 0 rgba(84,83,83,0.7);
+	
+}
+
+.botaoSubtitulo{ 
+	height: 33px;	
+	width: 128px;
+	margin:0;
+	font-family: "Open Sans";	
+	font-size: 24px;	
+	font-weight: bold;	
+	line-height: 33px;	
+	color: black;
+	margin-top: .2em;
+	text-align: center;
+}
+.icon-borda {
+	position: relative;
+	padding: .8em;
+	height: 47px;
+	width: 47px;
+	margin-top: -2.5em;
+	border-radius: 50px;
+	background-color: #F3F2F7;
+	
+}
+.icon {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-top: -2.2em;
+}
+
+.balao {
+	cursor:pointer;
+	height: 69px;	
+	width: 69px;	
+	background-color: #35779F;
+	position: absolute;
+	top:-1em;
+	left: -.2em;
+	border-radius: 50px;
+	color: #FFFFFF;	
+	font-family: "Open Sans";	
+	font-size: 36px;	
+	font-weight: bold;	
+	line-height: 70px;	
+	text-align: center;
+
+}
+.textoBotao {
+	color: rgba(84,83,83,0.7);	
+	font-family: "Zilla Slab";
+	font-size: 20px;		
+	text-align: center;
+	height: 96px;	
+	line-height: 24px;
+	width: 184px;
+	position: absolute;
+	bottom:-.2em;
+	transition: 1s;
+}
+.invisivelCadastro {
+	display: none;
+}
+.invisivelRequisitos {
+	display: none;
+}
+.invisivelLicencas {
+	display: none;
+}
+.invisivelTributacao {
+	display: none;
+}
+.invisivelLicenca {
+	display: none;
+}
+.invisivelTributos {
+	display: none;
+}
+.invisivelAnalises {
+	display: none;
+}
+.invisivelVistorias {
+	display: none;
+}
+.invisivelEmissao {
+	display: none;
+}
+#facilidades h2 {
+	color: #FFFFFF;	
+	font-family: "Open Sans";	
+	font-size: 64px;	
+	font-weight: bold;	
+	line-height: 87px;	
+	text-align: center;
+}
+#facilidades p {
+	color: rgba(224,244,255,0.46);	
+	font-family: "Open Sans";	
+	font-size: 20px;	
+	line-height: 27px;	
+	text-align: center;
+	margin-top: 2em;
+}
+#facilidades button {
+	height: 84px;	
+	width: 260px;	
+	border-radius: 10px;	
+	background-color: #449FD7;
+	color: #FFFFFF;	
+	font-family: "San Francisco Display Semibold";
+	font-size: 20px;	
+	font-weight: bold;	
+	text-align: center;
+	border: none;
+	margin-top: 2em;
+}
+#facilidades button:hover,
+#facilidades button:focus {
+	outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px
+}
+.primeiraFoto:focus {
+	outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px
+}
+#contato h2 {
+	color: #449FD7;	
+	font-family: "Open Sans";	
+	font-size: 73px;	
+	font-weight: bold;
+	margin-left: 2%;	
+}
+.img-e-contato {
+	display: flex;
+	justify-content: space-around;
+	margin-top:10%;
+}
+.form {
+	border-radius: 5px;	
+	background-color: #FFFFFF;
+	border: none;
+	color: #303030;	
+	font-family: "Open Sans";	
+	font-size: 14px;	
+	font-style: italic;	
+	font-weight: 300;	
+	line-height: 22px;
+	padding-left: 1.5em;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.input {
+	height: 40px;	
+	width: 436px;	
+}
+.form:focus {
+	border-color: #66afe9;
+  	outline: 0;
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.textarea { 
+	height: 97px;	
+	width: 436px;
+
+}
+.img-e-contato button {
+	height: 42px;	
+	width: 158px;	
+	border-radius: 5px;	
+	background-color: #FFFFFF;
+	color: #303030;	
+	font-family: "Open Sans";	
+	font-size: 16px;	
+	font-weight: bold;	
+	line-height: 22px;	
+	border: none;
+	text-align: center;
+	float: right;
+	transition: .5s;
+}
+.img-e-contato button:focus,
+.img-e-contato button:hover {
+	background-color: #449FD7;
+	color: #fff;
+	outline:0;
+}
+footer {
+	display: flex;
+	align-items: center;
+	height: 87px;	
+	width: 100%;	
+	background-color: #333333;
+	justify-content: space-around;
+	position:relative;
+}
+footer p {
+	margin-left:-1em;
+	margin-top:1em;
+	color: rgba(255,255,255,0.77);	
+	font-family: "Open Sans";	
+	font-size: 14px;	
+}
+.mangue {
+	font-weight:bold;
+}
+
+.acessoMunicipio {
+	margin-top:  4.5em;
+	display: flex;
+	justify-content: center;
+}
+.botaoMunicipio {
+	height: 219px;	
+	border: 3px solid rgba(151,151,151,0.3);	
+	border-radius: 10px;	
+	background-color: #FFFFFF;
+	margin-left: 1.5em;
+	width: 17%;
+	position: relative;
+	transition: height 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	flex-direction: column;
+
+}
+.botaoMunicipio:hover,
+.botaoMunicipio:focus {
+	background-color: #F3F2F7;
+	height: 275px;
+	box-shadow: 0 4px 14px 0 rgba(84,83,83,0.7);
+}
+
+
+.fill {
+	margin-top:1em;
+}
+.mangueSimbol {
+	position:absolute;
+	top:30%;
+	padding:.5em;
+	
+}
